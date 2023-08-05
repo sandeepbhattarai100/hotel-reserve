@@ -1,0 +1,33 @@
+.footer-container{
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+z-index: 100;
+position: sticky;
+border-top: 1px solid rgb(230, 221, 221);
+background-color: white;
+
+
+}
+
+.footer-wrapper{
+padding:20px;
+display: flex;
+justify-content: space-around;
+}
+.footer-left{
+    display: flex;
+    color: gray;
+    gap: 5px;
+}
+.footer-right{
+    display: flex;
+font-weight: 600;
+
+}
+
+@media only screen and (max-width: 620px)  {
+    .footer-container{
+        display: none;
+    }
+}
